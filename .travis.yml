@@ -1,0 +1,12 @@
+sudo: required
+
+services:
+  - docker
+
+script:
+  - docker build -t mastercloud .
+
+after_success:
+  - docker login -u $DOCKER_USER -p $DOCKER_PASS
+  - docker tag mastercloud $DOCKER_USER/mastercloud
+  - docker push $DOCKER_USER/mastercloud
