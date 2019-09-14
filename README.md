@@ -1,5 +1,14 @@
 # PRÁCTICAS MÓDULO CLOUD (fork)
 
+https://hub.docker.com/r/adrixgc/mastercloud
+
+La práctica no ha podido ser completada por no poder crear cuenta en AWS. La tarjeta era rechazada una y otra vez.
+He seguido todos los pasos de la práctica, pero no he podido probar el resultado final.
+Cosas sin finalizar:
+* Obtener clave PEM
+* Obtener ID de AMI
+
+
 ## Preparación
 
 * Cuenta de [Docker Hub](https://hub.docker.com/)
